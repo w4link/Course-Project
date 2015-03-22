@@ -33,7 +33,10 @@ Each column is a variable,there are no repeated columns.
 Each row is an observation. The grouping is done by subject and activity.
 This grouping seamed the most convenient based on the parameters provided for the project because it provides one mean and std entry for each subject, per activity, from both data sets.
 
-Varialbles:
+## Units
+Features are normalized and bounded within [-1,1].
+
+##Varialbles:
 
 [1] "activity"                        
 [2] "subject"                       
