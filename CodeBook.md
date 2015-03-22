@@ -23,3 +23,12 @@ d.Renames the labels of the data set with descriptive variable names.
 
 e.From created  data set in step, creates a second, independent tidy data set with the average of each variable for each activity and each subject, called “tidyData”
 
+#General description of the data file:
+
+Dimensions of the dataset are 180 81
+
+##Summary of the data - tidyData.cvs data is tidy because:
+Each column is a variable,there are no repeated columns.
+Each row is an observation. The grouping is done by subject and activity.
+This grouping seamed the most convenient based on the parameters provided for the project because it provides one mean and std entry for each subject, per activity, from both data sets.
+
