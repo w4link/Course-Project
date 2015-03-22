@@ -40,7 +40,7 @@ f. writes the obtained data set to a csv file
 
 ##General description of the tidy data file:
 
-Summary of the data - tidyData.cvs data is tidy because:
+Summary of the data - tidyData.txt data is tidy because:
 Each column is a variable,there are no repeated columns.
 Each row is an observation. The grouping is done by subject and activity.
 This grouping seamed the most convenient based on the parameters provided for the project because it provides one mean and std entry for each subject, per activity, from both data sets.
