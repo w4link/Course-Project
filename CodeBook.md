@@ -1,13 +1,13 @@
 ##Guide to create the tidy data file
 
 ##Description of the System used for work on the project:
-OS – Windows XP/SP1
-R Studio version 0.98.1091
-R console version 3.1.2
+OS – Windows XP/SP1;
+R Studio version 0.98.1091;
+R console version 3.1.2;
 libraries:
-dplyr version 0.4.1
-plyr version 1.8.1
-tidyr version 0.2.0
+dplyr version 0.4.1;
+plyr version 1.8.1;
+tidyr version 0.2.0;
 It is implied that the results from the processing description shall be repeatable on idendical system.
 
 ##Cleaning of the data
