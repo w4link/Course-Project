@@ -1,5 +1,5 @@
 ##Guide to create the tidy data file
-#Cleaning of the data
+##Cleaning of the data
 
 Instruction List
 
@@ -27,14 +27,13 @@ e.From created  data set in step, creates a second, independent tidy data set wi
 
 f. writes the obtained data set to a csv file 
 
-#General description of the data file:
-
-Dimensions of the dataset are 180 81
+##General description of the tidy data file:
 
 Summary of the data - tidyData.cvs data is tidy because:
 Each column is a variable,there are no repeated columns.
 Each row is an observation. The grouping is done by subject and activity.
 This grouping seamed the most convenient based on the parameters provided for the project because it provides one mean and std entry for each subject, per activity, from both data sets.
+Dimensions of the dataset are 180 81
 
 ## Units
 Features are normalized and bounded within [-1,1].
