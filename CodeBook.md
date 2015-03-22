@@ -6,7 +6,8 @@ Instruction List
 1.Download raw data from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-2.Extract “UCI HAR Dataset “ from zip file to the working directory (wd)
+2.Extract “UCI HAR Dataset “ from zip file to the working directory; 
+NOTE: move files from the subfolders to be at the same level in the working directory
 
 3.Start  R console and set the working directory to the repository root (setwd())
 
@@ -23,6 +24,8 @@ c.Extracts only the measurements on the mean and standard deviation for each mea
 d.Renames the labels of the data set with descriptive variable names. 
 
 e.From created  data set in step, creates a second, independent tidy data set with the average of each variable for each activity and each subject, called “tidyData”
+
+f. writes the obtained data set to a csv file 
 
 #General description of the data file:
 
