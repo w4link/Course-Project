@@ -25,6 +25,8 @@ sensor_mean_std <- allSensor_set[,grepl("mean|std|Subject|Activity", names(allSe
 ## aggregate data 
 tidy <-aggregate(sensor_mean_std, by=list(activity=sensor_mean_std$Activity, subject=sensor_mean_std$Subject), mean)
 
+## load tidyr library
+library(tidyr)
 ## remove duplicate columns
 tidyData <-select(tidy, 1:81)
 
