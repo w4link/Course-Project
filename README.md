@@ -26,7 +26,7 @@ In the original study - The experiments have been carried out with a group of 30
 
 Detailed description of the raw data variables is provided in the UCI HAR Dataset zip file and will not be repeated here.
 
-#Units
+##Units
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 For more information about this dataset contact: activityrecognition@smartlab.ws
