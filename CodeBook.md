@@ -117,7 +117,7 @@ Features are normalized and bounded within [-1,1].
 [75] "fBodyBodyAccJerkMag-meanFreq()"  
 [76]"fBodyBodyGyroMag-mean()"        
 [77] "fBodyBodyGyroMag-std()"     
-[78] "fBodyBodyGyroMag-meanFreq()" 
+[78] "fBodyBodyGyroMag-meanFreq()"
 [79] "fBodyBodyGyroJerkMag-mean()"   
 [80] "fBodyBodyGyroJerkMag-std()"     
 [81] "fBodyBodyGyroJerkMag-meanFreq()"
