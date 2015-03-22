@@ -1,4 +1,4 @@
-# Course-Project
+# Course-Project - Getting and Cleaning Data
 Course Project for Coursera Getting and Cleaning Data. Contains all project deliverables.
 
 #Project Description
