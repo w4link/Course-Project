@@ -24,13 +24,13 @@ In the original study - The experiments have been carried out with a group of 30
 
 Detailed description of the raw data variables is provided in the UCI HAR Dataset zip file and will not be repeated here.
 
-#Notes on the original (raw) data
-Notes: 
-##Units
+##Notes on the original (raw) data
+
+#Units
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 For more information about this dataset contact: activityrecognition@smartlab.ws
-License:
+#License:
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
