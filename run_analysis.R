@@ -31,4 +31,4 @@ library(tidyr)
 tidyData <-select(tidy, 1:81)
 
 ## write the data to separate file
-write.csv(tidyData, file="tidyData.csv")
+ write.table(tidyData, file="tidyData.txt", row.name=FALSE)
