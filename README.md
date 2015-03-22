@@ -3,7 +3,7 @@ Course Project for Coursera Getting and Cleaning Data. Contains all project deli
 
 #Project Description
 
-This project is the Course project for Coursera “Getting and Cleaning Data” course. The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
+This project is the Course project for Coursera “Getting and Cleaning Data” course. The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
 The project has 3 deliverables:
 1) a tidy data set
@@ -13,6 +13,8 @@ The project has 3 deliverables:
 #Project design
 The project was designed and assigned by faculty of Coursera “Getting and Cleaning Data” course.
 Below is the description of the raw data and the system used for the project. Processing steps to obtain the clean data and the variables description are described in the CodeBook.md.
+
+First all the data entries from both training and test set were concatenated. Then, only the means ans std values were subsetted. The resulting data is tidy, as it contains only one variable reading from each cathegory, for each participant, per activity.
 
 #Collection of the raw data
 Data used for the project, UCI HAR Dataset, was obtained from a publicly available study:
